@@ -24,11 +24,11 @@
 
 ## 🚀 Next‑Level Enhancements
 
-1. **TaskFlow API** – Switch to `@dag` and `@task` decorators for cleaner syntax and XCom handling :contentReference[oaicite:1]{index=1}.
-2. **Smaller transform tasks** – Break `transform()` into separate functions (e.g., `clean_customers`, `clean_products`, `clean_sales`) for better parallelism and maintainability :contentReference[oaicite:2]{index=2}.
-3. **Retries and alerts** – Enhance robustness with `retries`, `retry_delay`, and `on_failure_callback` for error notifications :contentReference[oaicite:3]{index=3}.
-4. **Unit tests** – Extract transform logic into testable functions and add tests for quality assurance :contentReference[oaicite:4]{index=4}.
-5. **Typed parameters** – Use default args and Jinja templates for dates & variables, avoiding Python `now()` at compile time :contentReference[oaicite:5]{index=5}.
+1. **TaskFlow API** – Switch to `@dag` and `@task` decorators for cleaner syntax and XCom handling.
+2. **Smaller transform tasks** – Break `transform()` into separate functions (e.g., `clean_customers`, `clean_products`, `clean_sales`) for better parallelism and maintainability.
+3. **Retries and alerts** – Enhance robustness with `retries`, `retry_delay`, and `on_failure_callback` for error notifications.
+4. **Unit tests** – Extract transform logic into testable functions and add tests for quality assurance.
+5. **Typed parameters** – Use default args and Jinja templates for dates & variables, avoiding Python `now()` at compile time.
 
 
 
